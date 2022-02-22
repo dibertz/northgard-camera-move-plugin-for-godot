@@ -90,7 +90,7 @@ Contributions to the development and enahancement of JRPG/RTS data is welcome. P
 If you have any questions or doubts comment in the description into below.
 
 1. <b>How to set up the parameters and settings?</b>
-<br>Into Godot editor double-click FileSystem > addons > rts_camera_move > "SampleScene.tscn" scene, script. Now in the new window can going to SampleScene > TrackingCamera > Camera and here variables it can be changed.
+<br>Into Godot editor double-click FileSystem > addons > rts_camera_move > "SampleScene.tscn". Now in the new window can going to SampleScene > TrackingCamera > Camera and here variables it can be changed.
 2. <b>What is size map clamped it?</b>
 <br>Higher values than the default value means a symmetric larger map. It should keep the same dimensions on both sides to avoid clamping critical errors.
 3. <b>How to does put my 3D character model without watch for the ugly cube?</b>
