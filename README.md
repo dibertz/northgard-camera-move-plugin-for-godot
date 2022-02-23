@@ -26,6 +26,8 @@ JRPG-camera-move-v.0.9 it's a tool designed for to RTS Games and RPGs. Let you m
  
  <b>Free-View Cam: First gif image
   
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/4NBdXHqH/demo-ahri-rts.gif' border='0' alt='demo-ahri-rts'/></a>
+  
   Lock-View Cam: Second gif image</b>
  
   --------------------------------------
@@ -70,13 +72,13 @@ Copy or clone repository inside of ➤ C:\Users\YourName\Documents\YourGodotProj
 
 1. Run Godot Engine 3.4 (C# Version required to run the plugin).
 2. Create a new node type Spatial and rename for 'SampleScene'.
-3. Attach a new script type C#.You will be able to remove it later and code in GDScript.
+3. Attach a new script type C# (give it another name is not SampleScene).You will be able to remove it later and write GDScript code.
 4. Now clicked in Build or Alt + B.
 5. To enable the freshly installed plugin, open Project > Project Settings at the top of the editor then go the Plugins tab.
 6. Active to enable the plugin > rts_camera_move
 7. Press the "Add Child Node" button at the top left of the Scene dock to create a node. This button adds the chosen node as a child of the currently selected one or, in an empty scene, as the root.
 8. Select the node Spatial > RTSCameraMove3D. You can type it's name to filter down the list.
-9. Select the RTSCameraMove3D node and check it out the "Editor Description".
+9. Click the RTSCameraMove3D node and check the "Editor Description" to know how to set up the Input Maps.
 10. <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/gJv4CdSs/node-select.png' border='0' alt='node-select'/></a>
 11. Set up the Input Map to enable Mouse Zoom and Character Move (PASS 9). Project > Project Settings > Input Map.
 12. Finally the setup has been completed, save the project and press Build.
