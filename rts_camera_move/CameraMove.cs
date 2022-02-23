@@ -7,7 +7,7 @@ public class CameraMove : Camera
 {
     private float Speed;
     [Export]
-    public float InitSpeed = 6.54f;
+    public float InitSpeed = 5.32f;
     [Export]
     public float SpeedRatio = 0.016f;
     private int Border = 30;
@@ -133,9 +133,9 @@ public class CameraMove : Camera
         else
         {
 
-            /*------------------------- -
-                - RPG Camera Controller -
-                ----------------------- -*/
+            /*-------------------------- -
+                - JRPG Camera Controller -
+                ------------------------ -*/
             TargetPos = new Vector3(TargetToFollow.Translation.x, TargetToFollow.Translation.y, TargetToFollow.Translation.z);
             Go.Translation = Go.Translation.LinearInterpolate(TargetPos, delta * 4.0f);
         }

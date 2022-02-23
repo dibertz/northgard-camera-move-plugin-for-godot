@@ -1,3 +1,5 @@
+// Copyright (c) Dibertz Soft contributors (https://dibertz.com) and Conectividad (Bs.As.) Argentina.
+// Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using Godot;
 using System;
 

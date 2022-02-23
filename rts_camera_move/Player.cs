@@ -5,7 +5,7 @@ using System;
 
 public class Player : KinematicBody
 {
-    private float Speed = 0.85f;
+    private float Speed = 2.45f;
     private Vector3 Direction;
     private Vector3 _velocity = Vector3.Zero;
     private int FallAcceleration = 35;
