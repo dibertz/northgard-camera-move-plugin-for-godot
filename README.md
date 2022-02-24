@@ -4,7 +4,7 @@ A plugin RTS camera move system made in Godot Engine 3.4 imitating to the Northg
 <br>
 ```diff
 + Recent version V.0.9.5 with new features and fixes applied.
-- JRPG Plugin 
+- Plug-in development written in C#.
 ```
 
 <h2>Intrduction:</h2>
@@ -66,7 +66,8 @@ GLES3 (GPU Driver Compatibility OpenGL 3.3).
 
 <h2>Get Started:</h2>
 
-Copy or clone repository inside of ➤ C:\Users\YourName\Documents\YourGodotProject\addons
+1. Copy or clone repository inside of ➤ C:\Users\YourName\Documents\YourGodotProject
+2. Rename the folder "northgard-camera-move-plugin-for-godot" to "addons".
 
 <h3>Start Project:</h2>
 
@@ -102,6 +103,8 @@ If you have any questions or doubts comment in the description into below.
 Do you want more features?, check it out repositories weekly.
 
 <h2>Licensed Under MIT</h2>
+
+Consider making a donation to support my work:
 
 <a href='https://www.paypal.com/donate/?hosted_button_id=EWDLXT7WUVYZ2' target='_blank'><img src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif' border='0' alt='Donate with PayPal button'/></a>
 
