@@ -73,7 +73,7 @@ GLES3 (GPU Driver Compatibility OpenGL 3.3).
 
 1. Run Godot Engine 3.4 (C# Version required to run the plugin).
 2. Create a new node type Spatial and rename for 'SampleScene'.
-3. Attach a new script type C# (give it another name is not SampleScene).You will be able to remove it later and write GDScript code.
+3. Attach a new script type C# (give it another name that is not SampleScene).You will be able to remove it later and choice GDScript.
 4. Now clicked in Build or Alt + B.
 5. To enable the freshly installed plugin, open Project > Project Settings at the top of the editor then go the Plugins tab.
 6. Active to enable the plugin > rts_camera_move
@@ -82,7 +82,7 @@ GLES3 (GPU Driver Compatibility OpenGL 3.3).
 9. Click the RTSCameraMove3D node and check the "Editor Description" to know how to set up the Input Maps.
 10. <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/gJv4CdSs/node-select.png' border='0' alt='node-select'/></a>
 11. Set up the Input Map to enable Mouse Zoom and Character Move (PASS 9). Project > Project Settings > Input Map.
-12. Finally the setup has been completed, save the project and press Build.
+12. Finally the set-up has been completed, save the project and press Build.
 13. Run the Game.
 
 <h2>Contributing</h2>
@@ -96,9 +96,9 @@ If you have any questions or doubts comment in the description into below.
 <br>Into Godot editor double-click FileSystem > addons > rts_camera_move > "SampleScene.tscn". Now in the new window can going to SampleScene > TrackingCamera > Camera and here variables it can be changed.
 2. <b>What is size map clamped it?</b>
 <br>Higher values than the default value means a symmetric larger map. It should keep the same dimensions on both sides to avoid clamping critical errors.
-3. <b>How to does put my 3D character model without watch for the ugly cube?</b>
-<br>It's super easy, click on node Mesh Instance (SampleScene/Player/Pivot/MeshInstance) and REMOVE, so replace it for your own. 
-<br>Set up to Scale X 0.1, Y 0.1, Z 0.1 and Traslation X 0.0, Y 0.1, Z 0.0. That's it.
+3. <b>How to does put my 3D character model and animation?</b>
+<br>It's super easy, select on folder addons/rts_camera_move/SampleScene.tscn (double click) in the inspector, and replace ahri_base node for your own.
+<br>Configure to Scale X 0.1, Y 0.1, Z 0.1, Translation X 0.0, Y 0.1, Z 0.0 and Rotation Degrees -180 or choice your custom set-up. That's it.
 
 Do you want more features?, check it out repositories weekly.
 
